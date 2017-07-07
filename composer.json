@@ -1,0 +1,17 @@
+{
+  "name": "eefw/fewf",
+  "description": "fefew",
+  "require": {
+    "duncan3dc/blade": "^3.4"
+  },
+  "autoload": {
+    "classmap": [
+      "system/http/router"
+    ],
+    "psr-4": {
+      "App\\": "App",
+      "System\\": "system",
+      "Helpers\\": "helpers"
+    }
+  }
+}
