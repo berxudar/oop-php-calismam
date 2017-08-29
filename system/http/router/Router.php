@@ -29,7 +29,7 @@ class Router {
 
 
 
-            $blade = new BladeInstance("app/views/", "cache/");
+            $blade = new BladeInstance("App/views/", "cache/");
 
             echo $blade->render($file, $vars);
         }
