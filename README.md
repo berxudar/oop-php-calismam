@@ -1,2 +1,2 @@
 
-deneme amaçlı bir çalışma
+*composer destekli mvc alt yapısı
